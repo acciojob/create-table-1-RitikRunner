@@ -3,7 +3,7 @@ const insertion = document.getElementById("insertion")
 
 function insert_Row() {
     //Write your code here
-  const row = sampleTable.insertRow();
+    const row = sampleTable.insertRow(0);
 
 	const cell1 = row.insertCell(0);
 	const cell2 = row.insertCell(1);
